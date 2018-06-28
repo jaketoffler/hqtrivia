@@ -1,0 +1,7 @@
+This project was created for Brian Spiering's Natural Language Processing (NLP) course in cohort 6 of USF's MSDS (formerly MSAN) program.
+
+The goal of this project is to create a script that can predict the answers to questions on the popular mobile trivia app, HQ Trivia. 
+
+Running the Python script from the command line will return the accuracy for the current method on all questions transcribed by the Twitter user @HQTriviaScribe.  At the time of creation (6/28/18), this script takes over two hours to run on a Macbook Air, Early 2014 with 4GB of memory.  This is due to the time-intensive work of pulling many webpages and then parsing those webpages with BeautifulSoup.  For that reason, I have provided the dataframe from which the accuracy is calculated in this repository.  I have also provided a Jupyter notebook for a more interactive experience or if you would like to get predictions for a subset of the questions.  Note that you will need a set of Twitter API keys/secrets. 
+
+Disclaimer: Although work still needs to be done in order for this to be able to be used during a live game, using this as a tool while playing the game breaks HQ Trivia's Terms of Service (https://hqtrivia.com/legal/rules.html): "entrants may not...benefit from...any technological means other than those explicitly provided by the Sponsor."
